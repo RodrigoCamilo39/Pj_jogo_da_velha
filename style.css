@@ -1,59 +1,68 @@
 body {
-    height: 100%;
-    width: 100%;
-    background-color: #F1F1F1;
+    background-color: #882ECF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
 }
 
 .box {
+    background-color: #484848;
     width: 210px;
     height: 230px;
-    background-color: #484848;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .frame {
     width: 150px;
     height: 170px;
-    padding-top: 30px;
-    background-color: #FFFFFF;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
 }
 
-.hud {
+.hud{
+    height: 20px;
     display: flex;
-    flex-direction: line;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 1.2px;
 }
 
 .player1 {
     width: 60px;
     height: 20px;
-    background-color: #423FF3;    
+    background-color: #423FF3;
+    text-align: center;
 }
 
 .scoreboard {
     width: 30px;
     height: 20px;
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .player2 {
     width: 60px;
     height: 20px;
-    background-color: #DB2525;    
+    background-color: #DB2525;
+    text-align: center;
 }
 
-/*
 .bord {
     width: 150px;
     height: 150px;
-    background-color: #FFFFFF;
-     
+    display: flex;
+    padding-top: 1%;
+    flex-wrap: wrap; 
+    justify-content: space-around;   
 }
-*/
+
+.house {
+    background-color: #FFFFFF;
+    width: 47px;
+    height: 47px;
+}
