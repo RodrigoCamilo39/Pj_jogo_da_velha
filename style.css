@@ -31,28 +31,28 @@ body {
     border-width: 1.2px;
 }
 
-.player1 {
+.player1y {
     width: 60px;
     height: 20px;
     background-color: #423FF3;
     text-align: center;
 }
 
-.scoreboard {
+.scoreboardy {
     width: 30px;
     height: 20px;
     background-color: #FFFFFF;
     text-align: center;
 }
 
-.player2 {
+.player2y {
     width: 60px;
     height: 20px;
     background-color: #DB2525;
     text-align: center;
 }
 
-.bord {
+.bordx {
     width: 150px;
     height: 150px;
     display: flex;
@@ -61,7 +61,7 @@ body {
 }
 
 
-.house {
+.housez {
     background-color: #FFFFFF;
     width: 47px;
     height: 47px;
@@ -121,9 +121,7 @@ body {
     background-color: rgb(117, 185, 185);
 }
 
-.button {
+.btn {
     width: 60px;
     height: 20px;
-    text-align: center;
-    
 }
